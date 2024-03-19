@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<?import java.net.URL?>
+<AnchorPane id="infoPane" prefHeight="473.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="at.Letter_Adventure.control.Letter_Adventure_Info_Control">
+   <stylesheets>
+      <URL value="@startMenu.css" />
+   </stylesheets>
+
+   <children>
+      <TextArea styleClass="infoText" editable="false" layoutY="71.0" prefHeight="330.0" prefWidth="600.0" text="&#10;1. Drücken Sie auf den Button „Spiel Starten“ um das Spiel zu starten.&#10;&#10;2. Oben wird zufällig ein englisches Wort generiert.&#10;&#10;3. Danach erscheinen einige Bubbles mit deutschen Übersetzungen.&#10;&#10;4. Klicken Sie nun auf das richtige Wort, um das englische Wort richtig zu übersetzen&#10;&#10;5. Wenn die Auswahl mit dem englischen Wort übereinstimmt, erhöht sich der Score.&#10;&#10;6. Bei einem Score von 10 richtigen Wörtern, ist das Spiel beendet &#10;und man kann von vorne anfangen ">
+         <font>
+            <Font name="Yu Gothic Light" size="14.0" />
+         </font>
+      </TextArea>
+      <TextField styleClass="infoTitle" editable="false" layoutX="167.0" prefHeight="60.0" prefWidth="267.0" text="Wie wird gespielt?">
+         <font>
+            <Font name="Segoe Script Bold" size="24.0" />
+         </font>
+      </TextField>
+      <Button fx:id="btn_back" layoutX="163.0" layoutY="413.0" mnemonicParsing="false" onAction="#getBack" styleClass="backButton" prefHeight="46.0" prefWidth="275.0" text="Zurück">
+         <font>
+            <Font name="Verdana Pro Semibold" size="24.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>

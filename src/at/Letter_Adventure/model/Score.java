@@ -12,6 +12,12 @@ public class Score {
         score++;
     }
 
+    public void decreaseScore() {
+        if (score > 0) {
+            score--;
+        }
+    }
+
     public int getScore() {
         return score;
     }

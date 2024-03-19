@@ -1,0 +1,111 @@
+/* Stil für den Button "Spiel Starten" */
+.button {
+    -fx-background-color: #add8e6; /* Babyblau */
+    -fx-background-radius: 30; /* Abrundung der Ecken */
+    -fx-text-fill: #000000; /* Schwarzer Text */
+    -fx-font-weight: bold;
+    -fx-font-size: 16px;
+    -fx-padding: 10 30 10 30; /* Innenabstand */
+    -fx-effect: dropshadow( gaussian , rgba(0,0,0,0.7) , 10,0,0,1 ); /* Schatten */
+}
+
+
+
+/* Hover-Stil für Buttons */
+.button:hover {
+    -fx-background-color: #87ceeb; /* Hellblau beim Überfahren für "Hinweis" */
+}
+
+/* Gedrückt-Stil für Buttons */
+.button:pressed {
+    -fx-background-color: #4682b4; /* Dunkelblau beim Drücken für "Hinweis" */
+}
+
+
+/* Stil für den Button "Neu Starten" */
+.buttonNewGame {
+    -fx-background-color: #bf8040; /* Dunkles Gold */
+    -fx-background-radius: 30; /* Abrundung der Ecken */
+    -fx-text-fill: #000000; /* Schwarzer Text */
+    -fx-font-weight: bold;
+    -fx-font-size: 16px;
+    -fx-padding: 10 30 10 30; /* Innenabstand */
+    -fx-effect: dropshadow( gaussian , rgba(0,0,0,0.7) , 10,0,0,1 ); /* Schatten */
+}
+
+/* Hover-Stil für den Button "Neu Starten" */
+.buttonNewGame:hover {
+    -fx-background-color: #cc9966; /* Helleres Gold beim Überfahren für "Neu Starten" */
+}
+
+/* Gedrückt-Stil für den Button "Neu Starten" */
+.buttonNewGame:pressed {
+    -fx-background-color: #996633; /* Dunkleres Gold beim Drücken für "Neu Starten" */
+}
+
+/* Stil für den Button "Spiel beenden" */
+.buttonEndGame {
+    -fx-background-color: #bf8040; /* Dunkles Gold */
+    -fx-background-radius: 30; /* Abrundung der Ecken */
+    -fx-text-fill: #000000; /* Schwarzer Text */
+    -fx-font-weight: bold;
+    -fx-font-size: 16px;
+    -fx-padding: 10 30 10 30; /* Innenabstand */
+    -fx-effect: dropshadow( gaussian , rgba(0,0,0,0.7) , 10,0,0,1 ); /* Schatten */
+}
+
+/* Hover-Stil für den Button "Spiel beenden" */
+.buttonEndGame:hover {
+    -fx-background-color: #cc9966; /* Helleres Gold beim Überfahren für "Spiel beenden" */
+}
+
+/* Gedrückt-Stil für den Button "Spiel beenden" */
+.buttonEndGame:pressed {
+    -fx-background-color: #996633; /* Dunkleres Gold beim Drücken für "Spiel beenden" */
+}
+
+/* Stil für den AnchorPane */
+#infoPane {
+    -fx-background-color: #f0f8ff; /* Hellblau */
+}
+
+/* Stil für den Textbereich */
+.infoText {
+    -fx-padding: 5px;
+    -fx-background-color: transparent;
+    -fx-border-color: black;
+    -fx-border-width: 2px;
+    -fx-border-radius: 5px;
+}
+
+/* Stil für den Titel */
+.infoTitle {
+    -fx-padding: 5px;
+    -fx-background-color: transparent;
+    -fx-border-color: black;
+    -fx-border-width: 2px;
+    -fx-border-radius: 5px;
+}
+
+/* Stil für den Zurück-Button */
+.backButton {
+    -fx-background-color: #add8e6; /* Babyblau */
+    -fx-background-radius: 30; /* Abrundung der Ecken */
+    -fx-text-fill: #000000; /* Schwarzer Text */
+    -fx-font-weight: bold;
+    -fx-font-size: 24px;
+    -fx-padding: 10 30 10 30; /* Innenabstand */
+    -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.7), 10, 0, 0, 1); /* Schatten */
+}
+
+/* Hover-Stil für den Zurück-Button */
+.backButton:hover {
+    -fx-background-color: #87ceeb; /* Hellblau beim Überfahren */
+}
+
+/* Gedrückt-Stil für den Zurück-Button */
+.backButton:pressed {
+    -fx-background-color: #4682b4; /* Dunkelblau beim Drücken */
+}
+
+

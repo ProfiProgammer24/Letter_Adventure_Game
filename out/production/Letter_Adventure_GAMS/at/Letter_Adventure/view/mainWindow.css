@@ -1,0 +1,35 @@
+/* Stil für die Bubbles */
+.bubble {
+    -fx-background-color: lightblue; /* Hintergrundfarbe der Bubble */
+    -fx-padding: 10px; /* Innenabstand der Bubble */
+    -fx-background-radius: 75px; /* Runde Ecken für die Bubble */
+    -fx-font-size: 26px; /* Schriftgröße in der Bubble */
+    -fx-font-weight: bold; /* Fettschrift in der Bubble */
+    -fx-cursor: hand; /* Zeige Handcursor beim Überfahren der Bubble mit der Maus */
+    -fx-border-radius: 75px;
+}
+
+/* Stil für die Bubbles beim Überfahren mit der Maus (Hover) */
+.bubble:hover {
+    -fx-background-color: lightcyan; /* Hintergrundfarbe ändern beim Überfahren */
+    -fx-border-color: darkblue; /* Randfarbe ändern beim Überfahren */
+    -fx-border-width: 2px; /* Randbreite erhöhen beim Überfahren */
+}
+
+/* Stil für den Button "Hinweis" */
+.buttonHinweis {
+    -fx-background-color: #add8e6; /* Babyblau */
+    -fx-background-radius: 30; /* Abrundung der Ecken */
+    -fx-text-fill: #000000; /* Schwarzer Text */
+    -fx-font-weight: bold;
+    -fx-font-size: 16px;
+    -fx-padding: 10 30 10 30; /* Innenabstand */
+    -fx-effect: dropshadow( gaussian , rgba(0,0,0,0.7) , 10,0,0,1 ); /* Schatten */
+}
+.buttonHinweis:hover {
+    -fx-background-color: #87ceeb; /* Hellblau beim Überfahren für "Hinweis" */
+}
+
+.buttonHinweis:pressed {
+    -fx-background-color: #4682b4; /* Dunkelblau beim Drücken für "Hinweis" */
+}

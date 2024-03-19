@@ -11,7 +11,7 @@
 
 <AnchorPane prefHeight="600.0" prefWidth="700.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="at.Letter_Adventure.control.Letter_Adventure_Control">
    <stylesheets>
-      <URL value="@style.css" />
+      <URL value="@mainWindow.css" />
    </stylesheets>
 
    <children>
@@ -40,7 +40,7 @@
             <Font size="36.0" />
          </font>
       </Label>
-      <Button layoutX="56.0" layoutY="626.0" mnemonicParsing="false" prefHeight="51.0" prefWidth="273.0" text="Gib mir einen Hinweis!">
+      <Button layoutX="56.0" layoutY="626.0" mnemonicParsing="false" onAction="#gebeHinweis" prefHeight="51.0" prefWidth="273.0" styleClass="buttonHinweis" text="Gib mir einen Hinweis!">
          <font>
             <Font size="24.0" />
          </font>
